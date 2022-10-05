@@ -5,8 +5,7 @@
 int simple_echo();
 
 int main(){
-  puts("Thus begins the tokenizer UI: as of yet, it simply echoes the input, unless the input 'x'
- is received. This particular input will exit the program's loop.");
+  puts("Thus begins the tokenizer UI: as of yet, it simply echoes the input, unless the input 'x'is received. This particular input will exit the program's loop.");
   simple_echo();
   
   return 0;

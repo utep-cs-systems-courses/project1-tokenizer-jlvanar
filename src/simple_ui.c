@@ -19,6 +19,7 @@ int simple_echo(){
   while(fgets(input, 256, stdin)){
     printf("%s\n", input);
     if(strcmp(input, "x") == 10){
+      /* This feels like it might be really sloppy? Hard coded based on trial and error */
       fputs("Alright, later, man.\n", stdout);
       return 0;
     }
